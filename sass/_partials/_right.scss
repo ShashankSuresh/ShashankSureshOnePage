@@ -1,0 +1,56 @@
+.right {
+    // height adjusting manually
+    padding-bottom: 16px;
+    .heading-container {
+        margin-left: 20px;
+        .name {
+            padding-top: 20px;
+        }
+        .desgination {
+            margin: 30px 0;
+        }
+        .name,
+        .desgination {
+            text-transform: uppercase;
+        }
+    }
+    .experience {
+        .company {
+            padding: 26px;
+            margin: 0 16px 16px 16px;
+            background: $white;
+            .company-name {
+                margin-bottom: 0;
+                font-size: 20px;
+            }
+            .period {
+                font-size: 14px;
+                color: $grey-quaternary;
+            }
+            .desgination {
+                padding-top: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+    .work {
+        .work-list {
+            position: relative;
+            background: $white;
+            // manually set bottom
+            margin: 0 2px 0 4px;
+            padding: 20px 10px;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    } // Common
+    .heading {
+        margin: 30px 0 20px 22px;
+    }
+    .more-to-come {
+        position: absolute;
+        bottom: 16px;
+    }
+}

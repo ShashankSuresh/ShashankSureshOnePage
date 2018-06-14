@@ -1,0 +1,29 @@
+$width: 80% 80% 60% 20% 80% 60%;
+$skills: html css javascript react design gatsby;
+@each $skill in $skills {
+    $i: index($skills, $skill);
+    .progress-bar-#{$skill} {
+        position: relative;
+        width: nth($width, $i);
+        height: 5px;
+        background: $grey-primary;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            background: $white;
+            border-radius: 50%;
+            right: -6px;
+            top: -4px;
+        }
+    }
+}
+
+.progress-bar-container {
+    margin-bottom: 20px;
+    width: 100%;
+    background: $grey-secondary;
+    height: 5px;
+}

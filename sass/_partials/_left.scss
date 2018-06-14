@@ -1,0 +1,29 @@
+.left {
+    .contact,
+    .skills {
+        padding: 20px;
+    }
+    .contact-list {
+        li {
+            padding-bottom: 20px;
+            span {
+                color: $white;
+            }
+            a.url {
+                font-size: 14px !important;
+            }
+            i {
+                color: $grey-primary;
+                font-size: 24px;
+                padding-right: 8px;
+            }
+        }
+    }
+    .skills-list {
+        li {
+            p {
+                color: $white;
+            }
+        }
+    }
+}
