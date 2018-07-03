@@ -1,4 +1,4 @@
-$width: 80% 80% 60% 20% 80% 60%;
+$width: 96% 96% 80% 70% 80% 80%;
 $skills: html css javascript react design gatsby;
 @each $skill in $skills {
     $i: index($skills, $skill);
