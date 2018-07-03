@@ -53,6 +53,13 @@
 
 @media screen and (min-width: 1440px) {
     .right { 
-        padding-bottom: 131px;
+        padding-bottom: 27px;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 768px) {
+    .right { 
+        padding-bottom: 27px;
     }
 }
